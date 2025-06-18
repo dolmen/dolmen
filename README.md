@@ -1,9 +1,4 @@
-<!--
 ![Dolmen (logo)](dolmen-sparkle.svg)
--->
-<h1>
-<img src="https://raw.githubusercontent.com/dolmen/dolmen/main/dolmen-sparkle.svg">
-</h1>
 
 # 💫 dolmen - Olivier Mengué
 
