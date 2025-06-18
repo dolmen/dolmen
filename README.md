@@ -1,4 +1,4 @@
-![Dolmen (logo)](dolmen.png)
+![Dolmen (logo)](dolmen-sparkle.svg)
 
 # 💫 dolmen - Olivier Mengué
 

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="132">
+  <style>
+#one {
+	transform: translate(350px, -30px);
+}
+.group {
+    transform: translate(42.5px, 42.5px);
+}
+#large, #small {
+    transform: translate(-42.50px,-42.50px);
+}
+.large {
+	-webkit-animation: large 2.5s infinite;
+	-moz-animation: large 2.5s infinite;
+}
+.large-2 {
+	-webkit-animation: large-2 2.5s infinite;
+	-moz-animation: large-2 2.5s infinite;
+}
+.small {
+	-webkit-animation: small 2.5s infinite;
+	-moz-animation: small 2.5s infinite;
+}
+@keyframes large {
+	0% {
+		opacity: 0;
+		transform: rotate(0deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(360deg) scale(1.5);
+	}
+}
+@keyframes large-2 {
+	0% {
+		opacity: 0;
+		transform: rotate(45deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(405deg) scale(1.1);
+	}
+}
+@keyframes small {
+	0% {
+		opacity: 0;
+		transform: rotate(0deg) scale(0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(-360deg) scale(1.5);
+	}
+}
+  </style>
+  <path d="M154 0h21v66h-21V0zM0 0h21v66H0V0zM42 0h14v6h7v54h-7v6H42V0zM399 24h21v42h-21V24zM350 24h21v42h-21V24zM280 24h21v42h-21V24zM245 24h21v42h-21V24zM189 24h21v42h-21V24zM119 24h14v6h7v30h-7v6h-14V24zM84 24h14v42H84v-6h-7V30h7v-6z" fill="#5252FF"/>
+  <path d="M308 60h28v6h-28v-6zM308 24h28v6h-28v-6zM105 60h7v6h-7v-6zM28 60h7v6h-7v-6zM385 42h7v6h-7v-6zM308 42h7v6h-7v-6zM378 36h7v6h-7v-6zM224 36h7v6h-7v-6zM231 30h7v6h-7v-6zM217 30h7v6h-7v-6zM105 24h7v6h-7v-6zM28 0h7v6h-7V0z" fill="#0000A5"/>
+<g id="one" width="100" height="100" viewBox="0 0 100 100">
+  <g id="sparkle" class="group">
+    <g class="large">
+      <path id="large" d="M41.25,40 L42.5,10 L43.75,40 L45,41.25 L75,42.5 L45,43.75 L43.75,45 L42.5,75 L41.25,45 L40,43.75 L10,42.5 L40,41.25z" fill="white" />
+    </g>
+    <g class="large-2" transform="rotate(45)">
+      <use xlink:href="#large" />
+    </g>
+    <g class="small">
+      <path id="small" d="M41.25,40 L42.5,25 L43.75,40 L45,41.25 L60,42.5 L45,43.75 L43.75,45 L42.5,60 L41.25,45 L40,43.75 L25,42.5 L40,41.25z" fill="white" />
+    </g>
+  </g>
+</g>
+</svg>
+
